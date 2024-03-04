@@ -1,0 +1,168 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    background-color: rgb(26, 41, 64);
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Linux;
+    src: url(/fonts/UbuntuMonoDerivativePowerline.ttf);
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url(/fonts/Heebo-Medium.ttf);
+}
+
+@font-face{
+    font-family: HeeboLight;
+    src: url(/fonts/Heebo-Light.ttf);
+}
+
+#BarraLateral
+{
+    padding: 0%;
+    margin: 0%;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+}
+
+#MenuLateral
+{
+    padding: 0;
+    margin: 0;
+}
+
+#MenuLateral ul
+{
+    padding: 5%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+#MenuLateral li
+{
+    text-align: right;
+    padding: 5%;
+    padding-right: 6px;
+    width: 90%;
+    background-image: url(/img/FundoMenu2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+A:visited
+{
+    text-decoration: none;
+}
+
+#MenuLateral a:hover
+{
+    color: rgb(183, 183, 183);
+    background-color: rgb(20, 32, 49);
+    cursor: pointer;
+}
+
+#MenuLateral a
+{
+    display: block;
+    text-decoration: none;
+    padding: 7%;
+    font-size: 110%;
+    font-family: Linux;
+    background-color: #1a2940;
+    color: #ffffff;
+}
+
+#PaginaPrincipal
+{
+    margin-left: 20%;
+    padding: 3%;
+    width: 55%;
+    height: 100%;
+    position: fixed;
+}
+
+#PaginaPrincipal p
+{
+    font-family: Linux;
+    color: #00FF41;
+    font-size: 18px;
+    padding-bottom: 2.5%;
+}
+
+#PaginaPrincipal h1
+{
+    font-family: Heebo;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    padding-bottom: -50px;
+    margin-bottom: -1.5%;
+}
+
+#PaginaPrincipal h2 
+{
+    font-family: Heebo;
+    color: rgb(170, 172, 170);
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 6%;
+}
+
+#PaginaPrincipal h4 
+{
+    font-family: HeeboLight;
+    font-size: 18px;
+}
+
+#PaginaPrincipal .SelecaoExperiencia
+{
+    color: #00FF41;
+    font-family: Linux;
+    font-size: 150%;
+}
+
+#PaginaPrincipal .DescricaoExperiencia 
+{
+    color: #ffffff;
+    margin-bottom: -20px;
+}
+
+#PaginaPrincipal .ImagemPortifolio
+{
+    display: block;
+    margin-left: 12%;
+    margin-top: 2%;
+    border: solid #315897;
+    border-radius: 1.25%;
+}
+
+#PaginaPrincipal a .Links
+{
+    text-align: center;
+}
+
+#PaginaPrincipal a:hover .Links
+{
+    text-align: center;
+    text-decoration: none;
+    color: #419c58;
+}
+
+#MenuLateral .selecionado
+{
+    color: rgb(183, 183, 183);
+    background-color: rgb(20, 32, 49);
+    cursor: pointer;
+}
